@@ -2,7 +2,7 @@ let mysql = require('mysql');
 
 const dotenv = require("dotenv");
 dotenv.config();
-// Mongo DB conncetion
+// mysql DB conncetion
 const db_host = process.env.DB_HOST;
 const db_users = process.env.DB_USER;
 const db_pass = process.env.DB_PASS;
